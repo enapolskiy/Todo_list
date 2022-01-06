@@ -21,6 +21,7 @@ if(e.key === "Enter") {
     return (
         <form onSubmit={handleSubmit}>
             <input value={userInput}
+
                    type={'text'}
                    placeholder={"enter task"}
                    onChange={handleChange}

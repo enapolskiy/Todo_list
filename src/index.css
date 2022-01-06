@@ -24,7 +24,7 @@ h1 {
 
 .App .item-todo {
   padding: 14px;
-  width: 717px;
+  width: 628px;
   margin: 0 auto;
   text-align: left;
   margin-top: 15px;
@@ -45,7 +45,8 @@ h1 {
 }
 
 .App input {
-  padding: 14px 470px 14px 16px;
+  width: 400px;
+  padding: 14px 150px 14px 16px;
   border-radius: 4px 0 0 4px;
   border: 2px solid #5d0cff;
   outline: none;
@@ -86,9 +87,7 @@ h1 {
 }
 
 .strike {
-  margin-top: 0px;
   text-decoration: line-through 2px red;
-
 }
 
 .del-img {

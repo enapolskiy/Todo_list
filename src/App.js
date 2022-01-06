@@ -29,7 +29,8 @@ function App() {
     return (
         <div className="App">
             <header>
-                <h1>Task list {todos.length} </h1>
+                {/*<h1>Task list {todos.length} </h1>*/}
+                <h1>Task list </h1>
             </header>
             <ToDoForm addTask={addTask}/>
             {todos.map((todo) => {
